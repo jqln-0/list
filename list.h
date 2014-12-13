@@ -4,6 +4,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 
+#define container_of(node, type, field) (type*)((char*)(node) - offsetof(type,field))
+
 typedef struct listNode {
   struct listNode *previous;
   struct listNode *next;
