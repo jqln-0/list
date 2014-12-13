@@ -1,0 +1,3 @@
+This is a really simple implementation of a doubly linked, cyclic, intrusive
+list. I made this because I thought the concept sounded really cool and I wanted
+to try it out. It's probably kinda bad.
